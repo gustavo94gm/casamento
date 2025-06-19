@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function ComCarinho() {
+export default function ComCarinho() {
   return (
     <section className="py-20 px-4 bg-gradient-to-b from-rose-50 to-amber-50">
       <div className="max-w-6xl mx-auto">

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 
-export function Galeria() {
+export default function Galeria() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const photos = [

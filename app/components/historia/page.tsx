@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart } from "lucide-react";
 
-export function Historia() {
+export default function Historia() {
   return (
     <section className="py-20 px-4 bg-gradient-to-b from-amber-50 to-rose-50">
       <div className="max-w-6xl mx-auto">

@@ -1,6 +1,6 @@
 import { Heart } from "lucide-react";
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="py-12 px-4 bg-stone-100 border-t border-rose-200">
       <div className="max-w-4xl mx-auto text-center">

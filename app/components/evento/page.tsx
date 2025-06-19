@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Music, MapPin, Calendar, CircleAlert } from "lucide-react";
 
-export function Evento() {
+export default function Evento() {
   return (
     <section className="py-20 px-4 bg-gradient-to-b from-rose-50 to-amber-50">
       <div className="max-w-6xl mx-auto">

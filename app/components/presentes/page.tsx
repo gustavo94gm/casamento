@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Gift, QrCode } from "lucide-react";
 import Image from "next/image";
 
-export function Presentes() {
+export default function Presentes() {
   return (
     <section className="py-20 px-4 bg-gradient-to-b from-rose-50 to-amber-50 relative overflow-hidden">
       <div className="max-w-4xl mx-auto text-center relative z-10">

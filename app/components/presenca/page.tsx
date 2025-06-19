@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Phone, MessageCircle } from "lucide-react";
 import Image from "next/image";
 
-export function Confirmacao() {
+export default function Confirmacao() {
   const phoneNumber = "+5547917148​03";
   const whatsappMessage =
     "Olá! Gostaria de confirmar minha presença no casamento.";

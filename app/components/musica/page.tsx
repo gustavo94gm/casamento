@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function Musica() {
+export default function Musica() {
   return (
     <section className="py-16 px-4 bg-gradient-to-b from-amber-50 to-rose-50">
       <div className="max-w-4xl mx-auto text-center">
