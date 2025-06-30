@@ -3,7 +3,7 @@ import { Heart, Calendar } from "lucide-react";
 export default function PaginaInicial() {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-rose-100/80 to-amber-100/80">
-      <div className="absolute inset-0 bg-[url('/começo.png')] bg-cover bg-center opacity-30"></div>
+      <div className="absolute inset-0 bg-[url('/começo.png')] bg-cover bg-center opacity-70"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/40"></div>
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="mb-8">

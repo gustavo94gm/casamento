@@ -7,7 +7,7 @@ export default function Presentes() {
     <section className="py-20 px-4 bg-gradient-to-b from-rose-50 to-amber-50 relative overflow-hidden">
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <h2 className="font-serif text-4xl md:text-5xl text-stone-700 mb-6">
-          Presentes (Nosso baú de aventuras)
+          Nosso baú de aventuras
         </h2>
         <div className="w-24 h-px bg-rose-300 mx-auto mb-8"></div>
 
@@ -23,10 +23,8 @@ export default function Presentes() {
             <div className="space-y-4 text-stone-600 leading-relaxed">
               <p>Já temos uma caminhada e conquistas juntos.</p>
               <p>
-                Se quiser nos presentear, pedimos que seja em dinheiro, pois
-                temos muitos sonhos em vista. (Se quiser nos presentear,
-                ficaremos gratos por contribuições em dinheiro, pois temos
-                muitos sonhos a realizar.)
+                Se quiser nos presentear, ficaremos gratos por contribuições em
+                dinheiro, pois temos muitos sonhos a realizar.
               </p>
               <p className="font-medium">Agradecemos de coração!</p>
               <p className="text-sm">

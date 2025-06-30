@@ -1,4 +1,5 @@
 import PaginaInicial from "./components/hero/page";
+import Countdown from "./components/countdown/page";
 import Historia from "./components/historia/page";
 import ComCarinho from "./components/carinho/page";
 import Evento from "./components/evento/page";
@@ -13,6 +14,7 @@ export default function WeddingLanding() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-rose-50 to-amber-50">
       <PaginaInicial />
+      <Countdown />
       <Historia />
       <ComCarinho />
       <Evento />

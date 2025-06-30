@@ -6,7 +6,7 @@ export default function Musica() {
       <div className="max-w-4xl mx-auto text-center">
         <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-rose-100">
           <h2 className="text-3xl md:text-4xl font-bold text-rose-800 mb-6 font-serif">
-            Sua Música Especial (Deixe nossa playlist ainda mais especial)
+            Deixe nossa playlist ainda mais especial!
           </h2>
 
           <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
