@@ -31,7 +31,7 @@ export default function ComCarinho() {
                 &ldquo;
               </div>
               <p className="text-stone-500 italic text-sm pl-4">
-                Com amor, carinho e as mãos de quem amamos
+                Com amor, carinho e as mãos de quem amamos.
               </p>
             </div>
           </div>

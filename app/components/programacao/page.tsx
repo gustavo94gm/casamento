@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
-import { MapPin, Heart, Music } from "lucide-react";
+import { MapPin, Heart, Music, Bed } from "lucide-react";
 
 export default function Programacao() {
   return (
@@ -138,6 +138,51 @@ export default function Programacao() {
                       de olho nas crianças. Há um espaço com campo de futebol
                       que pode e será utilizado durante toda festa.
                     </p>
+                  </div>
+
+                  <div className="bg-green-50/50 rounded-lg p-4">
+                    <h4 className="font-medium text-stone-700 mb-3 flex items-center gap-2">
+                      <Bed className="w-5 h-5 text-green-600" />
+                      Hospedagem
+                    </h4>
+                    <p className="text-sm text-stone-600 mb-3">
+                      Para quem precisa de hospedagem, separamos algumas opções
+                      próximas ao local:
+                    </p>
+                    <div className="space-y-2">
+                      <a
+                        href="https://kleinvillehoteis.com.br/dois-irmaos/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block text-sm text-green-700 hover:text-green-800 hover:underline transition-colors"
+                      >
+                        • Klein Ville Hotéis - Dois Irmãos
+                      </a>
+                      <a
+                        href="https://www.hotelvisao.com.br/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block text-sm text-green-700 hover:text-green-800 hover:underline transition-colors"
+                      >
+                        • Hotel Visão
+                      </a>
+                      <a
+                        href="https://kolonistenhaus.com.br/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block text-sm text-green-700 hover:text-green-800 hover:underline transition-colors"
+                      >
+                        • Kolonisten Haus
+                      </a>
+                      <a
+                        href="https://all.accor.com/ssr/app/ibis/rates/8175/index.pt-br.shtml?destination=novo-hamburgo-hamburgberg-novo-hamburgo-rs-brazil&compositions=1&dateIn=2025-06-19&dateOut=2025-06-20&nights=1&hideWDR=false&accessibleRoom=false"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block text-sm text-green-700 hover:text-green-800 hover:underline transition-colors"
+                      >
+                        • Ibis Novo Hamburgo
+                      </a>
+                    </div>
                   </div>
                 </div>
               </CardContent>

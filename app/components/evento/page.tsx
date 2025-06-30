@@ -76,7 +76,7 @@ export default function Evento() {
                     <div className="flex items-center gap-3">
                       <Calendar className="w-5 h-5 text-rose-400" />
                       <span className="text-sm">
-                        20 de Dezembro, 2025 - 19:00
+                        20 de dezembro de 2025 - 19:00
                       </span>
                     </div>
                   </div>
@@ -102,8 +102,8 @@ export default function Evento() {
                     <div className="bg-amber-50/50 rounded-lg p-4">
                       <p className="text-sm leading-relaxed">
                         <strong>
-                          Logo após a cerimônia, vocês estão convidados a se
-                          dirigir ao Espaço Naturelle.
+                          Vocês estão convidados a se dirigir ao Espaço
+                          Naturelle.
                         </strong>
                       </p>
                     </div>
@@ -130,9 +130,22 @@ export default function Evento() {
                       alt="Espaço Naturelle"
                       width={400}
                       height={250}
-                      className="w-full h-48 object-cover"
+                      className="w-full h-64 object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-amber-900/20 to-transparent"></div>
+                  </div>
+
+                  {/* Maps Button */}
+                  <div className="mt-4">
+                    <a
+                      href="https://www.google.com/maps/place/Espa%C3%A7o+Naturelle/@-29.5936667,-51.1824574,18.71z/data=!4m6!3m5!1s0x95195b9f2781259f:0x2e17dc7b34324468!8m2!3d-29.5946505!4d-51.1823146!16s%2Fg%2F11sbx5bd__?entry=ttu&g_ep=EgoyMDI1MDYyNi4wIKXMDSoASAFQAw%3D%3D"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 text-sm font-medium w-full justify-center"
+                    >
+                      <MapPin className="w-4 h-4" />
+                      Abrir no Google Maps
+                    </a>
                   </div>
                 </div>
               </CardContent>
@@ -141,7 +154,7 @@ export default function Evento() {
 
           {/* Connection Image - Third Element */}
           <div className="flex justify-center">
-            <Card className="bg-white/90 border-amber-200 shadow-lg max-w-md">
+            <Card className="bg-white/90 border-amber-200 shadow-lg w-full max-w-4xl">
               <CardContent className="p-6">
                 <div className="relative overflow-hidden rounded-xl shadow-md border-2 border-amber-200/50">
                   <Image
@@ -149,7 +162,7 @@ export default function Evento() {
                     alt="Conexão cerimônia e recepção"
                     width={1920}
                     height={1080}
-                    className="w-[30rem] object-cover"
+                    className="w-full h-auto object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-amber-900/20 to-transparent"></div>
 

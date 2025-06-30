@@ -33,7 +33,7 @@ export default function Confirmacao() {
 
             <div className="p-8">
               <p className="text-xl text-stone-700 mb-8 leading-relaxed font-medium">
-                Vocês são muito importantes para nós.
+                Vocês são muito importantes para nós!
               </p>
 
               <p className="text-lg text-stone-600 mb-8 leading-relaxed">

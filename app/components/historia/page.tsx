@@ -62,7 +62,7 @@ export default function Historia() {
                 <Card className="bg-white/80 border-rose-200 shadow-md">
                   <CardContent className="p-6">
                     <h3 className="font-serif text-xl text-stone-700 mb-2">
-                      Primeiro Olhar
+                      Primeiro olhar
                     </h3>
                     <p className="text-stone-600 text-sm">2013</p>
                     <p className="text-stone-600 mt-2">Onde tudo começou...</p>
@@ -101,7 +101,7 @@ export default function Historia() {
                 <Card className="bg-white/80 border-rose-200 shadow-md">
                   <CardContent className="p-6">
                     <h3 className="font-serif text-xl text-stone-700 mb-2">
-                      Pedido de Namoro
+                      Pedido de namoro
                     </h3>
                     <p className="text-stone-600 text-sm">2013</p>
                     <p className="text-stone-600 mt-2">O início da jornada</p>

@@ -7,7 +7,7 @@ export default function Footer() {
         <Heart className="w-8 h-8 text-rose-400 mx-auto mb-4" />
         <p className="text-stone-600 mb-2">Alice & Vinícius</p>
         <p className="text-sm text-stone-500">
-          20 de Dezembro, 2025 • Ivoti, RS
+          20 de dezembro de 2025 • Ivoti, RS
         </p>
       </div>
     </footer>

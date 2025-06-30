@@ -13,14 +13,14 @@ export default function PaginaInicial() {
           </h1>
           <div className="w-32 h-px bg-rose-300 mx-auto mb-6"></div>
           <p className="text-xl md:text-2xl text-stone-600 font-light mb-8">
-            Celebrando nosso amor
+            Celebrando nosso amor!
           </p>
         </div>
 
         <div className="bg-white/90 backdrop-blur-sm rounded-lg p-8 shadow-lg border border-rose-200">
           <div className="flex items-center justify-center gap-4 text-stone-700 mb-4">
             <Calendar className="w-6 h-6 text-rose-400" />
-            <span className="text-2xl font-serif">20 de Dezembro, 2025</span>
+            <span className="text-2xl font-serif">20 de dezembro de 2025</span>
           </div>
           <div className="flex items-center justify-center gap-4 text-stone-600">
             <span className="text-lg">19:00</span>
