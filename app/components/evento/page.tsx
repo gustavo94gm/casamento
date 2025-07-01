@@ -101,10 +101,7 @@ export default function Evento() {
                   <div className="space-y-4 text-stone-600">
                     <div className="bg-amber-50/50 rounded-lg p-4">
                       <p className="text-sm leading-relaxed">
-                        <strong>
-                          Vocês estão convidados a se dirigir ao Espaço
-                          Naturelle.
-                        </strong>
+                        <strong>Dirijam-se ao Espaço Naturelle.</strong>
                       </p>
                     </div>
 

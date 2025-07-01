@@ -20,7 +20,7 @@ export default function ComCarinho() {
                 </p>
                 <p className="text-lg text-stone-600 leading-relaxed font-medium">
                   Cada momento tem um toque artesanal e simples. Para nós, as
-                  pessoas é que fazem o momento se tornar algo memorável.
+                  pessoas é que tornam o momento algo memorável.
                 </p>
               </div>
             </div>

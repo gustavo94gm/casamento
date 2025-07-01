@@ -8,7 +8,7 @@ export default function Programacao() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl text-stone-700 mb-6">
-            Cronograma da Festa
+            Cronograma da Recepção
           </h2>
           <div className="w-24 h-px bg-rose-300 mx-auto"></div>
         </div>
@@ -164,7 +164,7 @@ export default function Programacao() {
                         rel="noopener noreferrer"
                         className="block text-sm text-green-700 hover:text-green-800 hover:underline transition-colors"
                       >
-                        • Hotel Visão
+                        • Hotel Visão - Ivoti
                       </a>
                       <a
                         href="https://kolonistenhaus.com.br/"
@@ -172,7 +172,7 @@ export default function Programacao() {
                         rel="noopener noreferrer"
                         className="block text-sm text-green-700 hover:text-green-800 hover:underline transition-colors"
                       >
-                        • Kolonisten Haus
+                        • Kolonisten Haus - Presidente Lucena
                       </a>
                       <a
                         href="https://all.accor.com/ssr/app/ibis/rates/8175/index.pt-br.shtml?destination=novo-hamburgo-hamburgberg-novo-hamburgo-rs-brazil&compositions=1&dateIn=2025-06-19&dateOut=2025-06-20&nights=1&hideWDR=false&accessibleRoom=false"
@@ -180,7 +180,7 @@ export default function Programacao() {
                         rel="noopener noreferrer"
                         className="block text-sm text-green-700 hover:text-green-800 hover:underline transition-colors"
                       >
-                        • Ibis Novo Hamburgo
+                        • Ibis - Novo Hamburgo
                       </a>
                     </div>
                   </div>
